@@ -8,7 +8,9 @@ node run
 ```
 
 ... and you should see an output `1`;
-one variable declaration has been found in the program.
+one variable declaration [has been found] in the program.
+
+[has been found]: https://github.com/assembleapp/hierarch-reproduce/blob/main/run.js#L9
 
 Run:
 
