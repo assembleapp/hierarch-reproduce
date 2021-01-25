@@ -1,0 +1,10 @@
+version: "2.1"
+
+services:
+  node:
+    build: .
+    image: hiearch-reproduce
+    command: node run
+    volumes:
+      - .:/launch
+      - /launch/node_modules/

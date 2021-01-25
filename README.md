@@ -17,6 +17,12 @@ docker build -t hierarch-reproduce .
 docker run hierarch-reproduce node run
 ```
 
+or:
+
+```
+docker-compose up
+```
+
 and you likely see an error code,
 either `139` or something about an invalid `ELF header`.
 Boo hoo.
