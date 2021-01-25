@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "tree-sitter": "^0.17.1",
+    "tree-sitter-javascript": "^0.16.0"
+  }
+}
